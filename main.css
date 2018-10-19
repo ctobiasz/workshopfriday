@@ -57,7 +57,7 @@ p {
   text-align: center;
   font-family: sans-serif;
   font color: black;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 
@@ -104,6 +104,23 @@ li {
 font-family: sans-serif;
 font-color: black;
 text-align: center;
+}
+
+.specific {
+  text-align: center;
+  width: 1500px;
+  height:200px;
+  display: table;
+  letter-spacing: 2px;
+  line-height: 100%;
+  padding-top: 10px;
+  border: 1px solid black;
+}
+
+.ps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
