@@ -1,3 +1,10 @@
+html {
+background: lightblue;
+}
+
+
+
+
 .header {
   background-image: url("https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/watermelon-facts.png");
   margin-top: inherit;
@@ -63,6 +70,25 @@ p {
   padding-bottom: 50px;
 }
 
+.grid-two {
+  display: grid;
+  grid-template: repeat(1, 70px) / repeat(4, 70px);
+  grid-gap: 5px;
+  justify-content: center;
+  padding-bottom: 50px;
+
+}
+
+section {
+  padding-bottom: 100px;
+}
+
+.grid-two div {
+  font-family:
+
+}
+
+
 img {
   height: 200px;
   width: 200px;
@@ -87,21 +113,21 @@ text-align: center;
   }
 
 .main-grid div:nth-child(2):hover {
-  Grow: 500px;
+  transform: translate(-10px, 25%);
   }
 
 .main-grid div:nth-child(3):hover {
-  transform: scale(1.1);
+  transform: rotate(20deg);
   }
 
 .main-grid div:nth-child(4):hover {
-  transform: scale(1.1);
+  transform: scaleX(1.5);
   }
 
 .main-grid div:nth-child(5):hover {
-  transform: scale(1.1);
+  transform: rotate(0.5turn);
   }
 
 .main-grid div:nth-child(6):hover {
-  background-color: orange;
+  transform: scaleY(1.5);
   }
