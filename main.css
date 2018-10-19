@@ -7,7 +7,6 @@
 }
 
 
-
 .header h1 {
   text-align: center;
   font-family: sans-serif;
@@ -42,9 +41,13 @@ p {
 
 .main-grid {
   display: grid;
-  grid-template: repeat(2, 300px) / repeat(3, 300px);
+  grid-template: repeat(2, 200px) / repeat(3, 200px);
   grid-column-gap: 15px;
   grid-gap: 5px;
   justify-content: center;
+}
 
+img {
+  height: 200px;
+  width: 200px;
 }
