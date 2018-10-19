@@ -19,3 +19,9 @@
 		   1px 1px 0 #00FFFF;
        justify-content: center;
 }
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font color: black;
+}
