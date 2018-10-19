@@ -1,0 +1,15 @@
+.header {
+  background-image: url("https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/watermelon-facts.png");
+  margin-top: inherit;
+  height: 100px;
+  padding:inherit;
+}
+
+
+
+.header h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: lightblue;
+  
+}
